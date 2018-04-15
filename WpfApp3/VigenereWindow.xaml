@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp3.VigenereWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Vigenere Cipher" Height="350" Width="525">
+    <Grid>
+        <Label Content="Enter your password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,33,0,0" Width="124"/>
+        <TextBox x:Name="passwordText" HorizontalAlignment="Left" Height="30" Margin="68,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="114"/>
+        <Label Content="Enter your key text" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,33,0,0" Width="124"/>
+        <TextBox x:Name="keyText" HorizontalAlignment="Left" Height="30" Margin="268,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="114"/>
+        <Button Content="Encrypt" HorizontalAlignment="Left" Height="58" Margin="68,132,0,0" VerticalAlignment="Top" Width="161" Click="Button_Click"/>
+        <Button Content="Decrypt" HorizontalAlignment="Left" Margin="272,132,0,0" VerticalAlignment="Top" Width="164" Height="58" Click="Button_Click_1" />
+        <TextBox x:Name="resultText" HorizontalAlignment="Left" Height="44" Margin="68,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="385"/>
+        <Label Content="The result is:" HorizontalAlignment="Left" Height="26" Margin="68,211,0,0" VerticalAlignment="Top" Width="279"/>
+       
+
+    </Grid>
+</Window>

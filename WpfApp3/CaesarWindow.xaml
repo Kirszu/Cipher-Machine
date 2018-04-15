@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp3.CaesarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Caesar Cipher" Height="350" Width="525">
+    <Grid Margin="0,0,2,-4">
+        <TextBox x:Name="passwordText" HorizontalAlignment="Left" Height="26" Margin="87,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="keyText" HorizontalAlignment="Left" Height="26" Margin="259,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Enter your numerical key" HorizontalAlignment="Left" Height="26" Margin="259,27,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Encrypt" HorizontalAlignment="Left" Height="58" Margin="68,132,0,0" VerticalAlignment="Top" Width="161" Click="Button_Click"/>
+        <Button Content="Decrypt" HorizontalAlignment="Left" Height="58" Margin="259,132,0,0" VerticalAlignment="Top" Width="156" Click="Button_Click_1"/>
+        <Label Content="Enter your text" HorizontalAlignment="Left" Height="26" Margin="87,27,0,0" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="resultText" HorizontalAlignment="Left" Height="44" Margin="68,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="385"/>
+        <Label Content="The result is:" HorizontalAlignment="Left" Height="26" Margin="68,211,0,0" VerticalAlignment="Top" Width="279"/>
+
+    </Grid>
+</Window>
